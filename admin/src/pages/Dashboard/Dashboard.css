@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dashboard-section {
+  display: grid;
+  align-items: center;
+  /* grid-template-columns:  1fr 1fr 1fr 1fr ; */
+  text-align: left;
+  gap: 20px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 1px solid #cacaca;
+  font-size: 15px;
+}
+
+.food-list{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dashboard-orders{
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #cacaca;
+}
